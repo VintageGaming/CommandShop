@@ -1,0 +1,19 @@
+main: com.VintageGaming.CommandShop.CSMain
+name: CommandShop
+author: VintageGaming
+version: 1.3
+description: Shop for Commands
+api-version: 1.13
+depends: [Vault]
+
+commands:
+  cshop:
+    usage: /cshop
+    description: Open Command Shop GUI
+    aliases: [cs]
+
+permissions:
+  cshop.buy:
+    description: Open Command Shop Gui
+  cshop.purchase.*:
+    description: Able to purchase anything

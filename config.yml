@@ -1,0 +1,4 @@
+ConfirmPurchase: true
+clear:
+  price: 2000
+  permission: minecraft.command.clear
